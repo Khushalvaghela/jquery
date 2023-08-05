@@ -1,0 +1,49 @@
+.main {
+    margin: 100px 0px;
+    margin-left: 500px;
+}
+
+.main_b {
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 300px;
+    width: 320px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.cal1 {
+    background-color: grey;
+}
+
+.btn1 {
+    background-color: teal;
+}
+
+button {
+    height: 40px;
+    width: 70px;
+    margin: 3px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.div1 input {
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
+    text-align: end;
+}
+
+.calculator span button {
+    width: 230px;
+}
+
+.calculator #text {
+    font-size: 20px;
+    font-weight: 700;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <!-- style cdn -->
+    <link rel="stylesheet" href="stylel.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="main_b">
+            <div class="calculator">
+                <span id="text">Calculator</span>
+                <div class="div1">
+                    <input type="text" id="get_value">
+                </div>
+                <div>
+                    <span>
+                        <button class="btn1" onclick="clean()">CE</button>
+                    </span>
+                    <button class="cal1" onclick="del()">DEL</button>
+                </div>
+                <div>
+                    <button onclick="storedata('7')">7</button>
+                    <button onclick="storedata('8')">8</button>
+                    <button onclick="storedata('9')">9</button>
+                    <button class="cal1" onclick="storedata('/')">&div;</button>
+                </div>
+                <div>
+                    <button onclick="storedata('4')">4</button>
+                    <button onclick="storedata('5')">5</button>
+                    <button onclick="storedata('6')">6</button>
+                    <button class="cal1" onclick="storedata('*')">&Cross;</button>
+                </div>
+                <div>
+                    <button onclick="storedata('1')">1</button>
+                    <button onclick="storedata('2')">2</button>
+                    <button onclick="storedata('3')">3</button>
+                    <button class="cal1" onclick="storedata('-')">-</button>
+                </div>
+                <div>
+                    <button onclick="storedata('.')">.</button>
+                    <button onclick="storedata('0')">0</button>
+                    <button onclick=" calculatedata()" class="equal">=</button>
+                    <button class="cal1" onclick="storedata('+')">+</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- script cdn -->
+        <script src="script.js"></script>
+</body>
+
+</html>
